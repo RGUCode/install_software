@@ -46,7 +46,7 @@ download_playbook()
 {
    rm -rf ${COOKBOOK_PATH}
    mkdir ${COOKBOOK_PATH}
-   curl -fsSL https://github.com/codio/install_software/archive/${BRANCH}.tar.gz  | tar zxf - -C ${COOKBOOK_PATH}
+   curl -fsSL https://github.com/RGUCode/install_software/archive/${BRANCH}.tar.gz  | tar zxf - -C ${COOKBOOK_PATH}
 }
 
 if IS_TRUSTY; then

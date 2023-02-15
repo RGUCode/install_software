@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COOKBOOK_PATH=/tmp/codio_playbook
+COOKBOOK_PATH=/tmp/rgucodio_playbook
 
 if test -z "${BRANCH}"; then
     BRANCH=master
